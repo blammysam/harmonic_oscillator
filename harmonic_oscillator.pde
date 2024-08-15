@@ -72,7 +72,6 @@ void set_position(){
   //F = ma
   acceleration = restoringForce/mass;
   vel += acceleration;
-  //minus vel because y ++ lowers block
   x += vel;
   
 
